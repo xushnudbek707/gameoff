@@ -1,0 +1,499 @@
+        *{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            background-image: url(/rasm/3c5a72f63e15d28346597772ab773b10.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;   
+        }
+        ul{
+            display: inline-block;
+            width: 100%;
+            margin: 10px;
+            padding: 5px;
+        }
+        ul li{
+            display: inline;
+            padding: 15px;
+            text-decoration: none;
+        }
+        ul a{
+            text-decoration: none;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            transition: 0.5s;
+        }
+        .div1{
+            margin-top: 3px;
+            border-bottom: 2px solid orange;
+            position: relative;
+        }
+        .div1 img{
+            width: 100%;
+            height: 48px;
+            opacity: 0.6;
+            display: block;
+            position: absolute;
+            top: 0;
+            z-index: -1;
+        }
+        a:hover{
+            color: orange;
+        }
+        .li1{
+            margin: 300px;
+        }
+        .li2{
+            margin: 100px;
+            
+        }
+        .li2 a{
+            color: black;
+            border: 1px solid orange;
+            padding: 5px;
+            background-color: orange;
+            border-radius: 15px;
+        }
+        h1{
+            text-align: center;
+            color:white ;
+            bottom: 600px;
+            left: 380px;
+            position: absolute;
+        }
+        p{
+            text-align: center;
+            color:white ;
+            bottom: 600px;
+            left: 350px;
+            position: absolute;  
+        }
+        p{
+            width: 700px;
+            top: 350px;
+            
+        }
+        .l17 {
+            color: black;
+            display: block;
+            border: 1px solid orange;
+            padding: 10px;
+            background-color: orange;
+            border-radius: 15px;
+            width: 100px;
+            position: absolute;
+            bottom:490px;
+            left: 370px;
+        }
+        .li5{
+            display: block;
+            padding: 10px;
+            background-color: lightgrey;
+            border-radius: 50px;
+            width: 50px;
+            position: absolute;
+            bottom:250px;
+            left: 370px;
+        }
+        .li5 a{
+            color: black; 
+        }
+        .li6{
+            display: block;
+            padding: 10px;
+            background-color: lightgrey;
+            border-radius: 50px;
+            width: 50px;
+            position: absolute;
+            bottom:250px;
+            left: 430px;
+        }
+        .li6 a{
+            color: black; 
+        }
+        .li5:hover{
+            background-color: orange;
+            color: white;
+            transition: 0.5s;
+        }
+        .li6:hover{
+            background-color: orange;
+            color: white;
+            transition: 0.5s;
+        }
+        .div2{
+            width: 100%;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            position: relative;
+            top: 1300px;
+            margin-bottom: 200px;
+        }
+        .div2 div{
+            
+        }
+        .div2 img{
+            width: 300px;
+            height: 300px;
+            opacity: 0.9;
+            position: relative;
+        }
+        .div2 h3{
+            position: absolute;
+            color: white;
+            background-color: rgb(246, 24, 109);
+            padding: 10px;
+            top: 0;
+        }
+        .div2 .h32{
+            position: absolute;
+            color: white;
+            background-color: rgb(8, 223, 120);
+            padding: 10px;
+            top: 0;
+        }
+        .div2 .h34{
+            position: absolute;
+            color: white;
+            background-color: rgb(123, 8, 223);
+            padding: 10px;
+            top: 0;
+        }
+        .div2 h4{
+            position: absolute;
+            color: rgb(255, 255, 255);
+            padding: 10px;
+            top: 190px;
+            padding: 10px;
+        }
+        .div2 p{
+            position: absolute;
+            color: rgb(255, 255, 255);
+            padding: 10px;
+            top: 210px;
+            left: 220px;
+        }
+        .div4{
+            background-image: url(/rasm/assasin.jpg);
+            width: 100%;
+            height: 900px;
+            position: relative;
+            top: 400px;
+            position: absolute;
+            background-repeat: no-repeat;
+        }
+        .div4 h2{
+            background-color: rgb(246, 24, 109);
+            padding: 5px;
+            position: absolute;
+            color: white;
+            left: 900px;
+            top: 150px;
+        }
+        .div4 h1{
+            position: absolute;
+            color: white;
+            left: 810px;
+            top: 200px;
+            color: black;
+        }
+        .div5{
+            width: 100%;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            position: relative;
+            top: 1300px;
+            margin-bottom: 200px;
+            top: 300px;
+        }
+        .div5 img{
+            width: 300px;
+            height: 300px;
+            opacity: 0.9;
+            position: relative;
+        }
+        .div5 h3{
+            position: absolute;
+            color: white;
+            background-color: rgb(246, 24, 109);
+            padding: 10px;
+            top: 0;
+        }
+        .div5 .h32{
+            position: absolute;
+            color: white;
+            background-color: rgb(8, 223, 120);
+            padding: 10px;
+            top: 0;
+        }
+        .div5 .h34{
+            position: absolute;
+            color: white;
+            background-color: rgb(123, 8, 223);
+            padding: 10px;
+            top: 0;
+        }
+        .div5 h4{
+            position: absolute;
+            color: rgb(255, 255, 255);
+            padding: 10px;
+            top: 190px;
+            padding: 10px;
+        }
+        .div5 p{
+            position: absolute;
+            color: rgb(255, 255, 255);
+            padding: 10px;
+            top: 210px;
+            left: 220px;
+        }
+        .div6{
+           background-color: rgb(26, 25, 25);
+            width: 100%;
+            height: 600px;
+            top: 1350px;
+            position: absolute;
+            background-size: cover;
+        }
+        .div6 .divc1{
+            width: 500px;
+            height: 300px;  
+            display: block;
+            background-color: black;
+            padding: 10px;
+            margin: 20px;
+        }
+        .div6 .hh1{
+            width: 500px;
+            height: 300px;  
+            display: block;
+            background-color: black;
+            padding: 10px;
+            margin: 20px;
+            margin:  300px auto;
+            margin-right: 400px;
+            position: absolute;
+            top: -100px;
+            right: -150px;
+            
+        }
+        .div6 .hh2{
+            width: 500px;
+            height: 300px;  
+            display: block;
+            background-color: black;
+            padding: 10px;
+            margin: 20px;
+            margin:  300px auto;
+            margin-right: 400px;
+            position: absolute;
+            top: -100px;
+            left: 250px;
+            
+        }
+        
+        .div6 img{
+            display: block;
+            top: 50px;
+            width: 200px;
+            height: 200px;
+        }
+        .hh1 h2{
+            color: orange;
+            display: flex;
+            position: absolute;
+            left: 235px;
+            bottom: 215px;
+        }
+        .hh2 h2{
+            color: orange;
+            display: flex;
+            position: absolute;
+            left: 235px;
+            bottom: 215px;
+        }
+        .hh1 p{
+            color: #fff;
+            display: flex;
+            position: absolute;
+            left: 235px;
+            bottom: 220px;
+            width: 260px;
+            text-align: justify;
+            top: 100px;    
+        }
+        .hh2 p{
+            color: #fff;
+            display: flex;
+            position: absolute;
+            left: 235px;
+            width: 260px;
+            text-align: justify;
+            top: 100px; 
+        }
+        .hh2 h6{
+            color: #fff;
+            display: flex;
+            position: absolute;
+            right: 10px;
+            width: 650px;
+            text-align: justify;
+            top: 265px;
+        }
+        .div7{
+            width: 100%;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            position: relative;
+            top: 1300px;
+            margin-bottom: 200px;
+            top: 700px;
+            background-image: url(/rasm/asaaaaaaaasin.jpeg);
+            background-size: cover  ;
+            background-repeat: no-repeat;
+            height: 700px;
+        }
+        .div7 img{
+            width: 300px;
+            height: 300px;
+            opacity: 0.9;
+            position: relative;
+            padding: 10px;
+        }
+        .div7 h3{
+            position: absolute;
+            color: white;
+            background-color: rgb(246, 24, 109);
+            padding: 20px;
+            top: 0;
+            border-radius: 100% 100%;
+            width: 80px;
+            height: 70px;
+        }
+        .div7 .h32{
+            position: absolute;
+            color: white;
+            background-color: rgb(8, 223, 120);
+            padding: 20px;
+            top: 0;
+            width:80px;
+            border-radius: 100% 100%;
+        }
+        .div7 .h34{
+            position: absolute;
+            color: white;
+            background-color: rgb(123, 8, 223);
+            padding: 10px;
+            top: 0;
+        }
+        .div7 h4{
+            position: absolute;
+            color: black;
+            padding: 10px;
+            top: 350px;
+            padding: 10px;
+        }
+        .div7 p{
+            position: absolute;
+            color: rgb(255, 255, 255);
+            padding: 10px;
+            top: 210px;
+            left: 220px;
+        }
+        .div8{
+            background-color: black;
+            width: 100%;
+            height: 700px;
+            position: absolute;
+            top: 700px;
+        } 
+        .div8 .hh1{
+            width: 500px;
+            height: 600px;  
+            display: flex;
+            background-color: rgb(59, 58, 58);
+            padding: 10px;
+            margin: 20px;
+            margin:  300px auto;
+            margin-right: 400px;
+            position: absolute;
+            top: -250px;
+            right: -300px;
+            
+        }
+        .div8 .hh2{
+            width: 500px;
+            height: 600px;  
+            display: block;
+            background-color: rgb(59, 58, 58);
+            padding: 10px;
+            margin: 20px;
+            margin:  300px auto;
+            margin-right: 400px;
+            position: absolute;
+            top: -250px;
+            right: 220px;
+            
+        }
+        
+        .div8 img{
+            display: block;
+            top: 50px;
+            width: 200px;
+            height: 200px;
+        }
+        .hh1 h2{
+            color: orange;
+            display: flex;
+            position: absolute;
+            left: 235px;
+            bottom: 215px;
+        }
+        .hh2 h2{
+            color: orange;
+            display: flex;
+            position: absolute;
+            left: 235px;
+            bottom: 215px;
+        }
+        .hh1 p{
+            color: #fff;
+            display: flex;
+            position: absolute;
+            left: 235px;
+            bottom: 220px;
+            width: 260px;
+            text-align: justify;
+            top: 100px;    
+        }
+        .hh2 p{
+            color: #fff;
+            display: flex;
+            position: absolute;
+            left: 235px;
+            width: 260px;
+            text-align: justify;
+            top: 100px; 
+        }
+        .img01{
+            left: 200px;
+            top: 100px;
+            width: 900px;
+            margin: 250px 50px;
+        }
+        .img02{
+            display: flex;
+            width: 200px;
+            margin: 10px 50px;
+        }
+        .div8 h1{
+            color: orange;
+            left: 300px;
+        }
+
